@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,7 +71,7 @@
 
 		<fieldset>
 			<legend class="hdr-clr">Newsletter</legend>
-			<h4 class="hdr-clr">Select the newsletters you would like to recieve</h4>
+			<label class="hdr-clr sub-t"> Select the newsletters you would like to recieve</label>
 
 			<input type="checkbox" id="html-nl" name="html-nl" value="html-nl">
 			<label class="inln" for="html-nl">HTML News</label><br>
@@ -81,17 +82,17 @@
 			<input type="checkbox" id="js-nl" name="js-nl" value="js-nl">
 			<label class="inln" for="js-nl">Javascript News</label>
 
-			<h4 class="hdr-clr">Newletter format</h4>
+			<label class="hdr-clr sub-t">Newletter format</label> 
 			<input type="radio" id="html-format" name="nl-format" value="html-format">
 			<label class="inln" for="html-format">HTML</label><br>
 			<input type="radio" id="plain-format" name="nl-format" value="plain-format">
 			<label class="inln" for="plain-format">Plain text</label>
 
-			<h4 class="hdr-clr">Other topics you'd like to hear about</h4>
+			<label for="comment" class="hdr-clr sub-t"> Other topics you'd like to hear about</label>
 			<textarea name="comments" id="comment"></textarea>
 
 			<button type="submit" id="submit" name="user_submit">Sign Up</button>
-			<button type="reset" id="submit" name="user_submit">Reset</button>
+			<button type="reset" id="reset" name="user_submit">Reset</button>
 
 			<div class="final">&copy; Copyright, The Code Review</div>
 
@@ -100,4 +101,5 @@
 	</form>
 
 </body>
+
 </html>

@@ -130,6 +130,10 @@ legend {
 	display: inline;
 }
 
+.sub-t {
+	margin-top: 30px;
+}
+
 /* Buttons ------------------------------------------------------------*/
 
 button {
@@ -165,7 +169,6 @@ button:focus {
 	font-size: .75em;
 	font-style: italic;
 	text-align: center;
-	
 }
 
 /* Pseudo Classes ------------------------------------------------------------------*/
@@ -207,11 +210,5 @@ input[type="radio"]:checked + label {
 		background: transparent;
 		width: 70%;
 	}
-	
-	::placeholder {
-
-	
-	}
-
 	
 }
