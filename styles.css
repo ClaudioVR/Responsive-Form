@@ -75,6 +75,7 @@ textarea {
 	letter-spacing: .05em;
 	border-style: none;
 	padding: 8px 25px;
+	transition: .5s;
 }
 
 ::placeholder {
@@ -146,6 +147,7 @@ button {
 	font-size: 1.5em;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: .5s;
 }
 
 button[type="reset"] {
@@ -157,6 +159,7 @@ button[type="reset"] {
 	height: 50px;
 	display: block;
 	margin: 20px auto;
+	transition: .5s;
 }
 
 button:focus {
