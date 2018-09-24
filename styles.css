@@ -188,9 +188,9 @@ input[type="radio"]:checked + label {
 
 @media (min-width: 768px) {
 	
-	body {
+	.wrapper {
 		width: 60%;
-		margin: auto;;
+		margin: auto;
 	}
 	
 	.flex-it {
